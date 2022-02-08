@@ -1,0 +1,224 @@
+.footer {
+  width: 1140px;
+  height: 400px;
+}
+.footer h4 {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 34px;
+
+  color: #ffffff;
+}
+.footerDetials {
+  height: 276px;
+  width: 100%;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+}
+.leftSidefooter {
+  width: 40%;
+  height: 100%;
+  border-right: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.leftSidefooter h3 {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  color: white;
+}
+.form {
+  width: 394px;
+  height: 75px;
+  background: linear-gradient(90deg, #b94a03 -4.14%, rgba(0, 0, 0, 0) 123.44%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.form input {
+  height: 100%;
+  width: 65%;
+  background: transparent;
+  border: none;
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: white;
+  text-align: center;
+}
+.form button {
+  width: 107px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 15px;
+  border: none;
+  margin-left: 20px;
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.rightsideFirstLine a {
+  text-decoration: none;
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 27px;
+  color: white;
+  margin-left: 147px;
+  margin-top: 30px;
+}
+.rightsideFirstLine {
+}
+#footerFaq {
+  margin-left: 100px !important;
+}
+.rightSide {
+  width: 60%;
+  padding-top: 80px;
+  height: 100%;
+}
+.copyrightAreea h5 {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.copyrightAreea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footersocialIcon {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 300px;
+    height: 400px;
+  }
+  .footer h4 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+  .leftSidefooter h3 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: white;
+  }
+  .form {
+    width: 258px;
+    height: 75px;
+    background: linear-gradient(
+      90deg,
+      #b94a03 -4.14%,
+      rgba(0, 0, 0, 0) 123.44%
+    );
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .form button {
+    width: 60px;
+    height: 38px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 0px;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    color: #000000;
+  }
+  .form input {
+    height: 100%;
+    width: 69%;
+    background: transparent;
+    border: none;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    text-align: center;
+  }
+  .footerDetials {
+    height: 276px;
+    width: 100%;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  .leftSidefooter {
+    width: 100%;
+    height: 100%;
+    border-right: 0px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rightSide {
+    width: 100%;
+    padding-top: 15px;
+    height: 100%;
+  }
+  .rightsideFirstLine a {
+    text-decoration: none;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 48px;
+    color: white;
+    margin-left: 1px;
+    margin-top: 30px;
+  }
+  #footerGallary {
+    margin-left: 125px;
+  }
+  .copyrightAreea h5 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  .social {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    margin: 4px;
+    cursor: pointer;
+  }
+}

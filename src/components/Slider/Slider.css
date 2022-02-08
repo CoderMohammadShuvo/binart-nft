@@ -1,0 +1,166 @@
+.slider {
+  height: 600px;
+  width: 1140px;
+}
+.sliderTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 20px;
+}
+.MainSlider {
+  margin-top: 50px;
+}
+.sliderTitle h4 {
+  color: #f08324;
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  margin-left: 15px;
+}
+#mainAdvantage {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.sliderItems {
+  width: 100%;
+  margin-top: 50px;
+}
+.sliderItem {
+  width: 333px;
+  height: 316px;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 11, 4, 0.25) 0%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+  backdrop-filter: blur(101px);
+  border-radius: 15px;
+}
+.sliderItemsMain {
+  display: flex;
+  justify-content: space-between;
+}
+.sliderImage {
+  width: 82px;
+  height: 86px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 17px;
+  border: 2px solid #f08324;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sliderItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sliderItem p {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 100%;
+    width: 300px;
+  }
+  .sliderTitle h4 {
+    color: #f08324;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    margin-left: 15px;
+  }
+  #mainAdvantage {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 46px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .sliderItem {
+    width: 30%;
+    height: 203px;
+    background: linear-gradient(
+      180deg,
+      rgba(35, 11, 4, 0.25) 0%,
+      rgba(255, 255, 255, 0.06) 100%
+    );
+    -webkit-backdrop-filter: blur(101px);
+    backdrop-filter: blur(101px);
+    border-radius: 15px;
+  }
+  .sliderImage {
+    width: 50px;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 17px;
+    border: 2px solid #f08324;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sliderImage img {
+    height: 20px;
+    width: 20px;
+  }
+  .sliderItem p br {
+    display: none;
+  }
+  .sliderItem p {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 0px;
+    color: #ffffff;
+  }
+  .advantage {
+    width: 337px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 18px;
+    justify-content: center;
+  }
+  .advantage h4 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 41px;
+    color: #f08324;
+  }
+  .advantage p {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,148 @@
+.whoWeAre {
+  height: 452px;
+  width: 1140px;
+}
+
+.aboutUsMain {
+  display: flex;
+  margin-top: 68px;
+}
+.aboutUsMain img {
+  margin-top: 20px;
+}
+.aboutUsMain p {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: #f08324;
+  margin-bottom: 0;
+}
+.aboutTitle {
+  width: 30%;
+}
+.aboutTitle h2 {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #ffffff;
+  margin-top: 0;
+}
+.aboutUs {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 20px;
+}
+.aboutUsPara {
+  width: 60%;
+}
+.aboutUsPara p {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  color: #ffffff;
+  margin-top: 81px;
+}
+.crafts {
+  width: 25%;
+  height: 200px;
+  border-right: 1px solid white;
+}
+.crafts h1 {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 61px;
+  line-height: 77px;
+  text-align: center;
+  color: #f08324;
+  margin-bottom: 0;
+}
+
+.crafts h4 {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+}
+.numbers {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .whoWeAre {
+    height: 390px;
+    width: 300px;
+  }
+  .aboutUs {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 0px;
+    flex-direction: column;
+  }
+  .aboutTitle {
+    width: 100%;
+  }
+  .aboutUsMain p {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #f08324;
+    margin-bottom: 0;
+  }
+  .aboutUsMain img {
+    margin-top: 2px;
+  }
+  .aboutTitle h2 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 0;
+  }
+  .aboutUsPara {
+    width: 100%;
+  }
+  .aboutUsPara p {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 2px;
+  }
+  .crafts h1 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 77px;
+    text-align: center;
+    color: #f08324;
+    margin-bottom: 0;
+  }
+  .crafts h4 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+  }
+  .crafts {
+    width: 25%;
+    height: 117px;
+    border-right: 1px solid white;
+  }
+}

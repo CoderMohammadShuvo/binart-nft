@@ -1,0 +1,144 @@
+.roadmap {
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../assets/Screenshot_1.png);
+  background-size: 100% 100%;
+}
+.roadmap h2 {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  color: #ffffff;
+  text-align: center;
+}
+#roadMaps {
+  height: 70px;
+}
+.roadMapOptions {
+  width: 90%;
+}
+.odd {
+  width: 413px;
+  height: 89px;
+  background-image: url('../../assets/leftBg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.odd p {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.inn {
+  width: 413px;
+  height: 89px;
+  background-image: url('../../assets/inn.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.inn p {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+.roadMapOptions {
+  display: flex;
+  justify-content: space-between;
+}
+.rightOption {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .roadmap {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .roadmap h2 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 46px;
+    color: #ffffff;
+    text-align: center;
+  }
+  #roadMaps {
+    height: 47px;
+  }
+  .roadMapOptions {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #line2 {
+    display: none;
+  }
+  .odd {
+    width: 257px;
+    height: 60px;
+    background-image: url('../../assets/leftBg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .inn {
+    width: 257px;
+    height: 60px;
+    background-image: url('../../assets/inn.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .inn p {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .odd p {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .rightOption {
+    margin-top: -4px;
+  }
+}

@@ -1,0 +1,103 @@
+.advanceMinterMAin {
+  width: 1140px;
+  height: 800px;
+  background-image: url(../../assets/advantageMinterbg.png);
+  background-size: 100% 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+.advantageMinter {
+  margin-top: 100px;
+}
+.advantageMinterTitle h2 {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  color: #ffffff;
+}
+.advantageMinter {
+  display: flex;
+  justify-content: space-between;
+}
+#advantageMinter {
+  margin-right: 50px;
+  margin-top: 70px;
+  height: 70px;
+  margin-bottom: 0px;
+}
+.minterAdvantage {
+  height: 457px;
+  width: 100%;
+  background: rgba(123, 123, 123, 0.1);
+  backdrop-filter: blur(101px);
+  border-radius: 15px;
+  margin-top: 50px;
+}
+.advantage {
+  width: 337px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  justify-content: center;
+}
+.advantageFirstline {
+  display: flex;
+  flex-wrap: wrap;
+}
+.advantage h4 {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  color: #f08324;
+}
+.advantage p {
+  font-family: Euclid Circular A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .minterAdvantage {
+    height: 100%;
+    width: 100%;
+    background: rgba(123, 123, 123, 0.1);
+    -webkit-backdrop-filter: blur(101px);
+    backdrop-filter: blur(101px);
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+  .advanceMinterMAin {
+    width: 300px;
+    height: 100%;
+    background-image: url(../../assets/advantageMinterbg.png);
+    background-size: 100% 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+  }
+  .advantageMinterTitle h2 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 46px;
+    color: #ffffff;
+  }
+  #advantageMinter {
+    margin-right: 0px;
+    margin-top: 74px;
+    height: 31px;
+    margin-bottom: 0px;
+  }
+}
