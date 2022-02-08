@@ -1,5 +1,11 @@
+.footerMain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .footer {
-  width: 1140px;
+  width: 100%;
   height: 400px;
 }
 .footer h4 {
@@ -17,6 +23,11 @@
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#footerBinart {
+  margin-left: 14%;
 }
 .leftSidefooter {
   width: 40%;
@@ -25,6 +36,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.footerDetalsContainer {
+  width: 1140px;
+  display: flex;
+  height: 100%;
 }
 .leftSidefooter h3 {
   font-family: Euclid Circular A;
@@ -96,7 +112,7 @@
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 0.02em;
-
+  margin-left: 14%;
   color: #ffffff;
 }
 .copyrightAreea {
@@ -106,12 +122,15 @@
 }
 .footersocialIcon {
   display: flex;
+  margin-right: 14%;
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
+  .footerDetalsContainer {
     width: 300px;
-    height: 400px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
   }
   .footer h4 {
     font-family: Euclid Circular A;
